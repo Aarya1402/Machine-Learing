@@ -1,0 +1,37 @@
+Why python for ML?
+->Easy, Fast enough,gross plateform,ML libraries
+input->data  output->rules for proccessing on data
+features :- To identify the labels
+feature->ML algorithm(processing on data) -> labels
+for data - UCI ML repo
+In ML input is features and output are labels
+Two types of learning
+    1. Supervised learning:
+        i.e, Linear regression classifier
+        1. already tagged data
+        2. features and labels are present
+        Two categories:
+            1. classification(returns already existing labels)
+            2. regression(returns value of new label)
+    2. Unsupervised learning
+        All machine knows is the data in front of it. No features! No labels!
+        1.Data not already tagged
+        2. features and labels are not present
+        3. training not done
+        4. clustering and association
+        i.e, Hierarchical clustering
+
+Modules: sklearn, numpy, matplotlib,pandas
+sklearn: for datasets
+numpy: Array faster than list
+matplotlib: to plot graph
+pandas: dataframe ,brings data to the RAM for faster access
+
+steps in typical ML problem
+    1. problem identification
+    2. Data collection and validation
+    3. Modal building
+    4. Feedback
+training and test spliting:
+    Given data usage = (To prepare/train modal) + (To test the modal)
+    
